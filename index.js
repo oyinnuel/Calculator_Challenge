@@ -7,19 +7,23 @@ sumEl = document.getElementById("sum-el")
 
 // Create four functions: add(), subtract(), divide(), multiply()
 function add() {
-    sumEl.textContent = num1 + num2
+    let result = num1 + num2
+    sumEl.textContent = "Sum: " + result
 }
 
 function subtract() {
-    sumEl.textContent = num1 - num2
+    let result = num1 - num2
+    sumEl.textContent = "Sum: " + result
 }
 
 function divide() {
-    sumEl.textContent = num1 / num2
+    let result = num1 / num2
+    sumEl.textContent = "Sum: " + result
 }
 
 function multiply() {
-    sumEl.textContent = num1 * num2
+    let result = num1 * num2
+    sumEl.textContent = "Sum: " + result
 }
 
 // Call the correct function when the user clicks on one of the buttons
